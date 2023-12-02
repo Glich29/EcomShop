@@ -16,7 +16,7 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Table(name = "product_category")
+@Table(name = "product_category", schema = "ecommerce-app")
 @Getter
 @Setter
 public class ProductCategory {
